@@ -1,0 +1,134 @@
+[2025-11-13 19:40:48] 🔍 Starting LogWatcher v1...
+[2025-11-13 19:40:48] 📡 Scanning UFW logs...
+      2 615
+      1 0
+      1 ]
+[2025-11-13 19:40:48] 🧱 LogWatcher scan complete.
+-e [2025-11-13 20:12:42] [34m🔍 Starting LogWatcher v2 — Real-Time Mode...[0m
+[2025-11-13 20:12:42] Monitoring: /var/log/ufw.log
+[2025-11-13 20:24:25] [34m🔍 Starting LogWatcher v2 — Real-Time Mode...[0m
+[2025-11-13 20:24:25] Monitoring: /var/log/ufw.log
+-e [2025-11-13 20:32:39] [34m🔍 Starting LogWatcher v2 — Real-Time Mode...[0m
+[2025-11-13 20:32:39] Monitoring: /var/log/ufw.log
+[2025-11-13 20:32:50] [34m🔍 Starting LogWatcher v2 — Real-Time Mode...[0m
+[2025-11-13 20:32:50] Monitoring: /var/log/ufw.log
+[2025-11-13 20:33:24] [34m🔍 Starting LogWatcher v2 — Real-Time Mode...[0m
+[2025-11-13 20:33:24] Monitoring: /var/log/ufw.log
+[2025-11-13 20:36:19] [34m🔍 Starting LogWatcher v2 — Real-Time Mode...[0m
+[2025-11-13 20:36:19] Monitoring: /var/log/ufw.log
+[2025-11-13 20:38:34] [34m🔍 Starting LogWatcher v2 — Real-Time Mode...[0m
+[2025-11-13 20:38:34] Monitoring: /var/log/kern.log
+[2025-11-13 20:39:04] [34m🔍 Starting LogWatcher v2 — Real-Time Mode...[0m
+[2025-11-13 20:39:04] Monitoring: /var/log/kern.log
+[2025-11-13 20:39:50] [34m🔍 Starting LogWatcher v2 — Real-Time Mode...[0m
+[2025-11-13 20:39:50] Monitoring: /var/log/kern.log
+[2025-11-13 20:43:18] [34m🔍 Starting LogWatcher v2 — Real-Time Mode...[0m
+[2025-11-13 20:43:18] Monitoring: /var/log/kern.log
+[2025-11-13 20:43:52] [34m🔍 Starting LogWatcher v2 — Real-Time Mode...[0m
+[2025-11-13 20:43:52] Monitoring: /var/log/kern.log
+[2025-11-13 20:43:52] [33m⚠️ SSH Attack detected from 4.3.2.1 (3 attempts)[0m
+[2025-11-13 20:43:52] [33m⚠️ SSH Attack detected from 4.3.2.1 (3 attempts)[0m
+[2025-11-13 20:43:52] [33m⚠️ SSH Attack detected from 4.3.2.1 (3 attempts)[0m
+[2025-11-13 23:21:03] [34m🔍 Starting LogWatcher v3 — Real-Time Mode...[0m
+[2025-11-13 23:21:03] Monitoring: /var/log/kern.log
+[2025-11-13 23:21:03] Thresholds: MAX_BLOCKS=5, MAX_SSH_BLOCKS=3
+[2025-11-13 23:21:30] [34m🧾 Running one-time scan on: /var/log/kern.log[0m
+[2025-11-13 23:21:30] [33m⚠️ SSH brute-force pattern: 4.3.2.1 (3 SSH attempts)[0m
+[2025-11-13 23:21:30] ℹ️ IP 4.3.2.1 has 3 blocks (below threshold).
+[2025-11-13 23:21:30] ℹ️ IP 10.0.2.15 has 1 blocks (below threshold).
+[2025-11-13 23:21:30] [32m✅ One-time scan completed.[0m
+[2025-11-13 23:22:02] [34m📊 Banned IPs report:[0m
+[2025-11-13 23:30:01] [34m🧾 Running one-time scan on: /var/log/kern.log[0m
+[2025-11-13 23:30:01] [33m⚠️ SSH brute-force pattern: 4.3.2.1 (3 SSH attempts)[0m
+[2025-11-13 23:30:01] ℹ️ IP 4.3.2.1 has 3 blocks (below threshold).
+[2025-11-13 23:30:01] ℹ️ IP 10.0.2.15 has 1 blocks (below threshold).
+[2025-11-13 23:30:01] [32m✅ One-time scan completed.[0m
+[2025-11-13 23:34:11] [32m⚙️  Loaded config from /home/roy/Projects/linux-admin-projects/LogWatcher/config/logwatcher.conf[0m
+[2025-11-13 23:34:11] [34m🔍 Starting LogWatcher v4 — Real-Time Mode...[0m
+[2025-11-13 23:34:11] Monitoring: /var/log/kern.log
+[2025-11-13 23:34:11] Thresholds: MAX_BLOCKS=5, MAX_SSH_BLOCKS=3, DRY_RUN=1
+[2025-11-13 23:34:44] [33m⚠️ SSH Attack detected from 4.3.2.1 (4 attempts)[0m
+[2025-11-13 23:34:44] [33m⚠️ SSH Attack detected from 4.3.2.1 (6 attempts)[0m
+[2025-11-13 23:34:44] [33m🧪 [DRY-RUN] Would ban IP: 4.3.2.1 (6 blocks)[0m
+[2025-11-13 23:34:44] [33m⚠️ SSH Attack detected from 4.3.2.1 (8 attempts)[0m
+[2025-11-13 23:34:44] [33m🧪 [DRY-RUN] Would ban IP: 4.3.2.1 (8 blocks)[0m
+[2025-11-13 23:34:44] [33m⚠️ SSH Attack detected from 4.3.2.1 (10 attempts)[0m
+[2025-11-13 23:34:44] [33m🧪 [DRY-RUN] Would ban IP: 4.3.2.1 (10 blocks)[0m
+[2025-11-13 23:34:44] [33m⚠️ SSH Attack detected from 4.3.2.1 (13 attempts)[0m
+[2025-11-13 23:34:44] [33m🧪 [DRY-RUN] Would ban IP: 4.3.2.1 (13 blocks)[0m
+[2025-11-13 23:34:44] [33m⚠️ SSH Attack detected from 4.3.2.1 (13 attempts)[0m
+[2025-11-13 23:34:44] [33m🧪 [DRY-RUN] Would ban IP: 4.3.2.1 (13 blocks)[0m
+[2025-11-13 23:34:44] [33m⚠️ SSH Attack detected from 4.3.2.1 (13 attempts)[0m
+[2025-11-13 23:34:44] [33m🧪 [DRY-RUN] Would ban IP: 4.3.2.1 (13 blocks)[0m
+[2025-11-13 23:34:44] [33m⚠️ SSH Attack detected from 4.3.2.1 (13 attempts)[0m
+[2025-11-13 23:34:44] [33m🧪 [DRY-RUN] Would ban IP: 4.3.2.1 (13 blocks)[0m
+[2025-11-13 23:34:44] [33m⚠️ SSH Attack detected from 4.3.2.1 (13 attempts)[0m
+[2025-11-13 23:34:44] [33m🧪 [DRY-RUN] Would ban IP: 4.3.2.1 (13 blocks)[0m
+[2025-11-13 23:34:44] [33m⚠️ SSH Attack detected from 4.3.2.1 (13 attempts)[0m
+[2025-11-13 23:34:44] [33m🧪 [DRY-RUN] Would ban IP: 4.3.2.1 (13 blocks)[0m
+[2025-11-13 23:35:14] [32m⚙️  Loaded config from /home/roy/Projects/linux-admin-projects/LogWatcher/config/logwatcher.conf[0m
+[2025-11-13 23:35:14] [34m🔍 Starting LogWatcher v4 — Real-Time Mode...[0m
+[2025-11-13 23:35:14] Monitoring: /var/log/kern.log
+[2025-11-13 23:35:14] Thresholds: MAX_BLOCKS=5, MAX_SSH_BLOCKS=3, DRY_RUN=0
+[2025-11-13 23:35:34] [33m⚠️ SSH Attack detected from 4.3.2.1 (14 attempts)[0m
+[2025-11-13 23:35:34] [31m⛔ BANNED IP: 4.3.2.1  (total 14 blocks)[0m
+[2025-11-13 23:35:41] [33m⚠️ SSH Attack detected from 4.3.2.1 (15 attempts)[0m
+[2025-11-13 23:35:41] [33m↩️  IP already banned: 4.3.2.1[0m
+[2025-11-13 23:35:41] [33m⚠️ SSH Attack detected from 4.3.2.1 (16 attempts)[0m
+[2025-11-13 23:35:41] [33m↩️  IP already banned: 4.3.2.1[0m
+[2025-11-13 23:35:42] [33m⚠️ SSH Attack detected from 4.3.2.1 (17 attempts)[0m
+[2025-11-13 23:35:42] [33m↩️  IP already banned: 4.3.2.1[0m
+[2025-11-13 23:35:42] [33m⚠️ SSH Attack detected from 4.3.2.1 (18 attempts)[0m
+[2025-11-13 23:35:42] [33m↩️  IP already banned: 4.3.2.1[0m
+[2025-11-13 23:35:42] [33m⚠️ SSH Attack detected from 4.3.2.1 (19 attempts)[0m
+[2025-11-13 23:35:42] [33m↩️  IP already banned: 4.3.2.1[0m
+[2025-11-13 23:35:43] [33m⚠️ SSH Attack detected from 4.3.2.1 (20 attempts)[0m
+[2025-11-13 23:35:43] [33m↩️  IP already banned: 4.3.2.1[0m
+[2025-11-13 23:35:43] [33m⚠️ SSH Attack detected from 4.3.2.1 (21 attempts)[0m
+[2025-11-13 23:35:43] [33m↩️  IP already banned: 4.3.2.1[0m
+[2025-11-13 23:35:43] [33m⚠️ SSH Attack detected from 4.3.2.1 (22 attempts)[0m
+[2025-11-13 23:35:43] [33m↩️  IP already banned: 4.3.2.1[0m
+[2025-11-13 23:35:43] [33m⚠️ SSH Attack detected from 4.3.2.1 (23 attempts)[0m
+[2025-11-13 23:35:43] [33m↩️  IP already banned: 4.3.2.1[0m
+[2025-11-13 23:35:43] [33m⚠️ SSH Attack detected from 4.3.2.1 (24 attempts)[0m
+[2025-11-13 23:35:43] [33m↩️  IP already banned: 4.3.2.1[0m
+[2025-11-13 23:35:44] [33m⚠️ SSH Attack detected from 4.3.2.1 (25 attempts)[0m
+[2025-11-13 23:35:44] [33m↩️  IP already banned: 4.3.2.1[0m
+[2025-11-13 23:35:44] [33m⚠️ SSH Attack detected from 4.3.2.1 (26 attempts)[0m
+[2025-11-13 23:35:44] [33m↩️  IP already banned: 4.3.2.1[0m
+[2025-11-13 23:35:44] [33m⚠️ SSH Attack detected from 4.3.2.1 (27 attempts)[0m
+[2025-11-13 23:35:44] [33m↩️  IP already banned: 4.3.2.1[0m
+[2025-11-13 23:35:44] [33m⚠️ SSH Attack detected from 4.3.2.1 (28 attempts)[0m
+[2025-11-13 23:35:44] [33m↩️  IP already banned: 4.3.2.1[0m
+[2025-11-13 23:35:44] [33m⚠️ SSH Attack detected from 4.3.2.1 (29 attempts)[0m
+[2025-11-13 23:35:44] [33m↩️  IP already banned: 4.3.2.1[0m
+[2025-11-13 23:35:44] [33m⚠️ SSH Attack detected from 4.3.2.1 (30 attempts)[0m
+[2025-11-13 23:35:44] [33m↩️  IP already banned: 4.3.2.1[0m
+[2025-11-13 23:35:45] [33m⚠️ SSH Attack detected from 4.3.2.1 (31 attempts)[0m
+[2025-11-13 23:35:45] [33m↩️  IP already banned: 4.3.2.1[0m
+[2025-11-13 23:35:45] [33m⚠️ SSH Attack detected from 4.3.2.1 (32 attempts)[0m
+[2025-11-13 23:35:45] [33m↩️  IP already banned: 4.3.2.1[0m
+[2025-11-13 23:35:45] [33m⚠️ SSH Attack detected from 4.3.2.1 (33 attempts)[0m
+[2025-11-13 23:35:45] [33m↩️  IP already banned: 4.3.2.1[0m
+[2025-11-13 23:35:45] [33m⚠️ SSH Attack detected from 4.3.2.1 (34 attempts)[0m
+[2025-11-13 23:35:45] [33m↩️  IP already banned: 4.3.2.1[0m
+[2025-11-13 23:35:45] [33m⚠️ SSH Attack detected from 4.3.2.1 (35 attempts)[0m
+[2025-11-13 23:35:45] [33m↩️  IP already banned: 4.3.2.1[0m
+[2025-11-13 23:35:46] [33m⚠️ SSH Attack detected from 4.3.2.1 (36 attempts)[0m
+[2025-11-13 23:35:46] [33m↩️  IP already banned: 4.3.2.1[0m
+[2025-11-13 23:36:22] [32m⚙️  Loaded config from /home/roy/Projects/linux-admin-projects/LogWatcher/config/logwatcher.conf[0m
+[2025-11-13 23:36:22] [34m🔍 Starting LogWatcher v4 — Real-Time Mode...[0m
+[2025-11-13 23:36:22] Monitoring: /var/log/kern.log
+[2025-11-13 23:36:22] Thresholds: MAX_BLOCKS=5, MAX_SSH_BLOCKS=3, DRY_RUN=0
+[2025-11-13 23:40:01] [32m⚙️  Loaded config from /home/roy/Projects/linux-admin-projects/LogWatcher/config/logwatcher.conf[0m
+[2025-11-13 23:40:01] [34m🧾 Running one-time scan on: /var/log/kern.log[0m
+[2025-11-13 23:40:02] [33m⚠️ SSH brute-force pattern: 4.3.2.1 (36 SSH attempts)[0m
+[2025-11-13 23:40:02] [33m↩️  IP already banned: 4.3.2.1[0m
+[2025-11-13 23:40:02] [33m🛡️  Skipping whitelisted IP in scan: 10.0.2.15[0m
+[2025-11-13 23:40:02] [32m✅ One-time scan completed.[0m
+[2025-11-13 23:50:01] [32m⚙️  Loaded config from /home/roy/Projects/linux-admin-projects/LogWatcher/config/logwatcher.conf[0m
+[2025-11-13 23:50:01] [34m🧾 Running one-time scan on: /var/log/kern.log[0m
+[2025-11-13 23:50:01] [33m⚠️ SSH brute-force pattern: 4.3.2.1 (36 SSH attempts)[0m
+[2025-11-13 23:50:01] [33m↩️  IP already banned: 4.3.2.1[0m
+[2025-11-13 23:50:01] [33m🛡️  Skipping whitelisted IP in scan: 10.0.2.15[0m
+[2025-11-13 23:50:01] [32m✅ One-time scan completed.[0m

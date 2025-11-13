@@ -1,0 +1,226 @@
+[2025-11-12 19:48:41] 🔒 Starting UFW Guardian...
+[2025-11-12 19:48:41] 📜 Loading allowed ports...
+[2025-11-12 19:48:41] ✅ Allowed port: 22
+[2025-11-12 19:48:41] ✅ Allowed port: 80
+[2025-11-12 19:48:41] ✅ Allowed port: 443
+[2025-11-12 19:48:41] 🧱 Firewall setup complete.
+Current UFW status:
+Status: inactive
+[2025-11-12 19:51:56] 🔒 Starting UFW Guardian...
+[2025-11-12 19:51:56] 📜 Loading allowed ports...
+[2025-11-12 19:51:56] ✅ Allowed port: 22
+[2025-11-12 19:51:56] ✅ Allowed port: 80
+[2025-11-12 19:51:56] ✅ Allowed port: 443
+[2025-11-12 19:51:56] 🧱 Firewall setup complete.
+Current UFW status:
+Status: inactive
+[2025-11-12 19:57:17] 🔒 Starting UFW Guardian...
+[2025-11-12 19:57:17] ✅ UFW already active.
+[2025-11-12 19:57:17] 📜 Loading allowed ports...
+[2025-11-12 19:57:17] ✅ Allowed port: 22
+[2025-11-12 19:57:17] ✅ Allowed port: 80
+[2025-11-12 19:57:17] ✅ Allowed port: 443
+[2025-11-12 19:57:17] 🧱 Firewall setup complete.
+Current UFW status:
+Status: active
+Logging: on (low)
+Default: deny (incoming), allow (outgoing), disabled (routed)
+New profiles: skip
+
+To                         Action      From
+--                         ------      ----
+22                         ALLOW IN    Anywhere                  
+80                         ALLOW IN    Anywhere                  
+443                        ALLOW IN    Anywhere                  
+22 (v6)                    ALLOW IN    Anywhere (v6)             
+80 (v6)                    ALLOW IN    Anywhere (v6)             
+443 (v6)                   ALLOW IN    Anywhere (v6)             
+
+[2025-11-13 19:21:19] [36m🔒 Starting UFW Guardian v3...(B[m
+[2025-11-13 19:21:19] [32m✅ UFW already active.(B[m
+[2025-11-13 19:21:19] [36m🔧 Default policy: deny incoming, allow outgoing.(B[m
+[2025-11-13 19:21:19] [36m📜 Loading allowed ports from config...(B[m
+[2025-11-13 19:21:19] [32m✅ Allowed port: 22(B[m
+[2025-11-13 19:21:19] [32m✅ Allowed port: 80(B[m
+[2025-11-13 19:21:19] [32m✅ Allowed port: 443(B[m
+[2025-11-13 19:21:19] [32m🔁 Firewall reloaded and logging enabled.(B[m
+[2025-11-13 19:21:19] [36m🧱 Firewall setup complete.(B[m
+----------------------------------------
+Status: active
+Logging: on (low)
+Default: deny (incoming), allow (outgoing), disabled (routed)
+New profiles: skip
+
+To                         Action      From
+--                         ------      ----
+22                         ALLOW IN    Anywhere                  
+80                         ALLOW IN    Anywhere                  
+443                        ALLOW IN    Anywhere                  
+22 (v6)                    ALLOW IN    Anywhere (v6)             
+80 (v6)                    ALLOW IN    Anywhere (v6)             
+443 (v6)                   ALLOW IN    Anywhere (v6)             
+
+----------------------------------------
+[2025-11-13 19:21:42] [36m🔒 Starting UFW Guardian v3...(B[m
+[2025-11-13 19:21:42] [32m✅ UFW already active.(B[m
+[2025-11-13 19:21:42] [36m🔧 Default policy: deny incoming, allow outgoing.(B[m
+[2025-11-13 19:21:42] [36m📜 Loading allowed ports from config...(B[m
+[2025-11-13 19:21:42] [32m✅ Allowed port: 22(B[m
+[2025-11-13 19:21:42] [32m✅ Allowed port: 80(B[m
+[2025-11-13 19:21:42] [32m✅ Allowed port: 443(B[m
+[2025-11-13 19:21:42] [32m🔁 Firewall reloaded and logging enabled.(B[m
+[2025-11-13 19:21:42] [36m🧱 Firewall setup complete.(B[m
+----------------------------------------
+Status: active
+Logging: on (low)
+Default: deny (incoming), allow (outgoing), disabled (routed)
+New profiles: skip
+
+To                         Action      From
+--                         ------      ----
+22                         ALLOW IN    Anywhere                  
+80                         ALLOW IN    Anywhere                  
+443                        ALLOW IN    Anywhere                  
+22 (v6)                    ALLOW IN    Anywhere (v6)             
+80 (v6)                    ALLOW IN    Anywhere (v6)             
+443 (v6)                   ALLOW IN    Anywhere (v6)             
+
+----------------------------------------
+[2025-11-13 19:21:55] [36m🔒 Starting UFW Guardian v3...(B[m
+[2025-11-13 19:21:55] [32m✅ UFW already active.(B[m
+[2025-11-13 19:21:55] [36m🔧 Default policy: deny incoming, allow outgoing.(B[m
+[2025-11-13 19:21:55] [36m📜 Loading allowed ports from config...(B[m
+[2025-11-13 19:21:55] [32m✅ Allowed port: 22(B[m
+[2025-11-13 19:21:55] [32m✅ Allowed port: 80(B[m
+[2025-11-13 19:21:55] [32m✅ Allowed port: 443(B[m
+[2025-11-13 19:21:55] [32m🔁 Firewall reloaded and logging enabled.(B[m
+[2025-11-13 19:21:55] [36m🧱 Firewall setup complete.(B[m
+----------------------------------------
+Status: active
+Logging: on (low)
+Default: deny (incoming), allow (outgoing), disabled (routed)
+New profiles: skip
+
+To                         Action      From
+--                         ------      ----
+22                         ALLOW IN    Anywhere                  
+80                         ALLOW IN    Anywhere                  
+443                        ALLOW IN    Anywhere                  
+22 (v6)                    ALLOW IN    Anywhere (v6)             
+80 (v6)                    ALLOW IN    Anywhere (v6)             
+443 (v6)                   ALLOW IN    Anywhere (v6)             
+
+----------------------------------------
+[2025-11-13 19:21:55] [31m⚠️  Firewall rules reset to default.(B[m
+[2025-11-13 19:22:19] [36m🔒 Starting UFW Guardian v3...(B[m
+[2025-11-13 19:22:19] [33m⚙️  Updated /etc/ufw/ufw.conf to ENABLED=yes(B[m
+[2025-11-13 19:22:19] [32m✅ UFW already active.(B[m
+[2025-11-13 19:22:19] [36m🔧 Default policy: deny incoming, allow outgoing.(B[m
+[2025-11-13 19:22:19] [36m📜 Loading allowed ports from config...(B[m
+[2025-11-13 19:22:19] [32m✅ Allowed port: 22(B[m
+[2025-11-13 19:22:19] [32m✅ Allowed port: 80(B[m
+[2025-11-13 19:22:19] [32m✅ Allowed port: 443(B[m
+[2025-11-13 19:22:19] [32m🔁 Firewall reloaded and logging enabled.(B[m
+[2025-11-13 19:22:19] [36m🧱 Firewall setup complete.(B[m
+----------------------------------------
+Status: active
+Logging: on (low)
+Default: deny (incoming), allow (outgoing), disabled (routed)
+New profiles: skip
+
+To                         Action      From
+--                         ------      ----
+22                         ALLOW IN    Anywhere                  
+80                         ALLOW IN    Anywhere                  
+443                        ALLOW IN    Anywhere                  
+22 (v6)                    ALLOW IN    Anywhere (v6)             
+80 (v6)                    ALLOW IN    Anywhere (v6)             
+443 (v6)                   ALLOW IN    Anywhere (v6)             
+
+----------------------------------------
+[2025-11-13 19:22:19] [32m✅ Added and allowed port: sudo ./ufw_guardian.sh(B[m
+[2025-11-13 23:42:55] [36m🔒 Starting UFW Guardian v3...(B[m
+[2025-11-13 23:42:55] [32m✅ UFW already active.(B[m
+[2025-11-13 23:42:55] [36m🔧 Default policy: deny incoming, allow outgoing.(B[m
+[2025-11-13 23:42:55] [36m📜 Loading allowed ports from config...(B[m
+[2025-11-13 23:42:55] [32m✅ Allowed port: 22(B[m
+[2025-11-13 23:42:55] [32m✅ Allowed port: 80(B[m
+[2025-11-13 23:42:55] [32m✅ Allowed port: 443(B[m
+[2025-11-13 23:42:55] [32m✅ Allowed port: sudo ./ufw_guardian.sh(B[m
+[2025-11-13 23:42:55] [32m🔁 Firewall reloaded and logging enabled.(B[m
+[2025-11-13 23:42:55] [36m🧱 Firewall setup complete.(B[m
+----------------------------------------
+Status: active
+Logging: on (low)
+Default: deny (incoming), allow (outgoing), disabled (routed)
+New profiles: skip
+
+To                         Action      From
+--                         ------      ----
+22                         ALLOW IN    Anywhere                  
+80                         ALLOW IN    Anywhere                  
+443                        ALLOW IN    Anywhere                  
+Anywhere                   DENY IN     1.2.3.4                   
+Anywhere                   DENY IN     4.3.2.1                   
+22 (v6)                    ALLOW IN    Anywhere (v6)             
+80 (v6)                    ALLOW IN    Anywhere (v6)             
+443 (v6)                   ALLOW IN    Anywhere (v6)             
+
+----------------------------------------
+[2025-11-13 23:42:55] [31m⚠️  Firewall rules reset to default.(B[m
+[2025-11-13 23:44:57] [36m🔒 Starting UFW Guardian v3...(B[m
+[2025-11-13 23:44:57] [33m⚙️  Updated /etc/ufw/ufw.conf to ENABLED=yes(B[m
+[2025-11-13 23:44:57] [32m✅ UFW already active.(B[m
+[2025-11-13 23:44:57] [36m🔧 Default policy: deny incoming, allow outgoing.(B[m
+[2025-11-13 23:44:57] [36m📜 Loading allowed ports from config...(B[m
+[2025-11-13 23:44:57] [32m✅ Allowed port: 22(B[m
+[2025-11-13 23:44:57] [32m✅ Allowed port: 80(B[m
+[2025-11-13 23:44:57] [32m✅ Allowed port: 443(B[m
+[2025-11-13 23:44:57] [32m✅ Allowed port: sudo ./ufw_guardian.sh(B[m
+[2025-11-13 23:44:57] [32m🔁 Firewall reloaded and logging enabled.(B[m
+[2025-11-13 23:44:57] [36m🧱 Firewall setup complete.(B[m
+----------------------------------------
+Status: active
+Logging: on (low)
+Default: deny (incoming), allow (outgoing), disabled (routed)
+New profiles: skip
+
+To                         Action      From
+--                         ------      ----
+22                         ALLOW IN    Anywhere                  
+80                         ALLOW IN    Anywhere                  
+443                        ALLOW IN    Anywhere                  
+22 (v6)                    ALLOW IN    Anywhere (v6)             
+80 (v6)                    ALLOW IN    Anywhere (v6)             
+443 (v6)                   ALLOW IN    Anywhere (v6)             
+
+----------------------------------------
+[2025-11-13 23:44:57] [31m⚠️  Firewall rules reset to default.(B[m
+[2025-11-13 23:51:10] [36m🔒 Starting UFW Guardian v4...(B[m
+[2025-11-13 23:51:10] [33m⚙️  Updated /etc/ufw/ufw.conf to ENABLED=yes(B[m
+[2025-11-13 23:51:10] [32m✅ UFW already active.(B[m
+[2025-11-13 23:51:10] [36m🔧 Default policy: deny incoming, allow outgoing.(B[m
+[2025-11-13 23:51:10] [36m📜 Loading allowed ports from config...(B[m
+[2025-11-13 23:51:10] [32m✅ Allowed port: 22(B[m
+[2025-11-13 23:51:10] [32m✅ Allowed port: 80(B[m
+[2025-11-13 23:51:10] [32m✅ Allowed port: 443(B[m
+[2025-11-13 23:51:10] [32m✅ Allowed port: sudo ./ufw_guardian.sh(B[m
+[2025-11-13 23:51:10] [32m🔁 Firewall reloaded and logging enabled.(B[m
+[2025-11-13 23:51:10] [36m🧱 Firewall setup complete.(B[m
+----------------------------------------
+Status: active
+Logging: on (low)
+Default: deny (incoming), allow (outgoing), disabled (routed)
+New profiles: skip
+
+To                         Action      From
+--                         ------      ----
+22                         ALLOW IN    Anywhere                  
+80                         ALLOW IN    Anywhere                  
+443                        ALLOW IN    Anywhere                  
+22 (v6)                    ALLOW IN    Anywhere (v6)             
+80 (v6)                    ALLOW IN    Anywhere (v6)             
+443 (v6)                   ALLOW IN    Anywhere (v6)             
+
+----------------------------------------
+[2025-11-13 23:51:10] [31m⚠️  Firewall rules reset to default.(B[m
