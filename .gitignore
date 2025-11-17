@@ -3,3 +3,5 @@ backups/*
 *.swp
 *.log
 *.tmp
+LogWatcher/logs/*.log
+LogWatcher/logs/*.jsonl
